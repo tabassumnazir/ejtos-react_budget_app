@@ -1,0 +1,32 @@
+.increase-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; 
+    padding: 0px;
+}
+.decrease-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content:center; /* Horizontally center the content */
+    align-items:center; 
+    padding-left: 0px;
+    padding-right:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}

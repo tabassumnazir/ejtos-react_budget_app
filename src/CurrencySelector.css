@@ -1,0 +1,33 @@
+.currency-selector-container {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .currency-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .currency-selector {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    background-color: green; /* Set the background color of the dropdown */
+    color: white; /* Set the text color of the dropdown */
+  }
+  
+  .currency-selector option {
+    padding: 8px;
+  }
+  
+  /* Highlight the selected option */
+  .currency-selector option:checked {
+    background-color: white;
+    color: black;
+  }
+  
+  
